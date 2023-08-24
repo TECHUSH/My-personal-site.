@@ -1,0 +1,152 @@
+body {
+    background-color: rgb(217, 247, 247);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif, serif;
+    margin: 0;
+}
+
+h1 {
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: #66BFBF;
+    letter-spacing: 2px;
+    font-size: 75px;
+    margin: 100 auto 0 auto;
+
+}
+
+h2 {
+    font-size: 32px;
+    font-family: 'montserrat', sans-serif;
+    letter-spacing: -2px;
+    color: #66BFBF;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'montserrat', sans-serif;
+}
+
+.top-container {
+    position: relative;
+    padding-top: 10px;
+}
+
+.middle-container{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.bottom-container{
+    background-color: 66BFBF;
+    padding: 40px 0 10px;
+}
+
+hr{
+    border: dotted #99ddff 6PX;
+    border-bottom: none ;
+    border-width: 30%;
+    width: 4%;
+    margin: 100px auto; 
+}
+
+
+.intro {
+    width: 50%;
+    margin: auto;
+    line-height: 1.6;
+    padding-bottom: 15PX;
+}
+
+ .web-dev{
+    float: left;
+    padding-left: 60px;
+} 
+
+.webskill {
+    width: 50%;
+    margin: auto;
+    text-align: left;
+    padding-left: 135px;
+    line-height: 1.6;
+}
+
+ .vollyballskill {
+    float: right;
+    padding-top: 125px;
+    padding-right: 55px;
+} 
+
+.v-skill {
+    width: 50%;
+    margin: auto;
+    line-height: 1.6;
+    padding-bottom: 60px;
+    text-align: left;
+}
+
+.mountain {
+    position: relative;
+    bottom: 100px;
+}
+
+.cloud1 {
+    position: absolute;
+    top: 0px;
+    right: 175px;
+    margin-right: 0px;
+    height: 175px;
+    width: 175px;
+}
+
+.cloud2 {
+    height: 175px;
+    width: 175px;
+    position: absolute;
+    right: 480px;
+    top: 90px;
+    left: 180;
+}
+
+.btn {
+	background:linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+	background-color:#11cdd4;
+	border-radius:9px;
+	border:2px solid #87eef0;
+    display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'montserrat', sans-serif;
+	font-size:17px;
+	padding:8px 19px;
+	text-decoration:none;
+	text-shadow:-6px 5px 4px #2f6627;
+    margin: 20px auto 60px auto;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #30e3cb 5%, #2bc4ad 100%);
+	background-color:#11999e;
+    
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+a{
+    color: 11999e;
+    text-decoration: none;
+    font-family: 'montserrat', sans-serif;
+    margin: 10px 20px;
+    font-size: medium;
+}
+
+a:hover{
+    color: eaf6f6;
+    font-size: large;
+    transition: 0.5s ease;
+}
+
+.copy{
+    color: eaf6f6;
+}
